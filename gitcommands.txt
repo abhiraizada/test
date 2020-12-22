@@ -1,0 +1,20 @@
+git init
+git status
+cd
+touch finename
+git add
+git status
+git commit -m "your log message"
+git status
+git log
+git checkout HASHCODE
+
+git branch 			**lists branches
+git checkout master		**moves to master
+git branch new-name		**creates new branch
+git add .   			**adds everything to staging area
+git merge branch_name_created   **merges with the master and overwrites
+
+https://rubygarage.org/blog/most-basic-git-commands-with-exampless
+
+
