@@ -30,3 +30,11 @@ git push -u origin master
 git remote remove origin
 git remote set-url origin git://new.url.here  --instead of removing
 testing1 from testbranch
+
+git branch  -lists all branches
+git branch branchname --creates branch
+git checkout master --moevs to master
+git checkout -b branchname --create and moves to new branch
+git pull -- git fetch + git merge
+git merge branchname -- merger the branch with master
+git push -- updates in remote repo
