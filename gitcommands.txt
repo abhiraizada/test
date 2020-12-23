@@ -38,3 +38,6 @@ git checkout -b branchname --create and moves to new branch
 git pull -- git fetch + git merge
 git merge branchname -- merger the branch with master
 git push -- updates in remote repo
+
+git branch -d branchname --deletes branch
+touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules
