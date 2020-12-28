@@ -41,3 +41,8 @@ git push -- updates in remote repo
 
 git branch -d branchname --deletes branch
 touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules
+
+git push origin master --force >> push forcefully
+git pull origin main --allow-unrelated-histories >> History conflicts
+
+git remote -v >>gives remote name
